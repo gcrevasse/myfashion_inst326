@@ -102,19 +102,28 @@ class MyCloset:
     
     """
     
-    def __main__():  
+    def ask_user():  
         """
-        I believe this would be the main function:
-        based on the users choice, 
-        certain functions will be called to run 
-        so in this main function, if user picks 
-        the first option, only the functions that 
-        align with that option will be called
-    
         Function that asks user what they want to do
-            pick an outfit for the day
-            based on friends style 
-            Pack for a trip
-            add new clothes to closet
+            1. pick an outfit for the day
+            2. based on friends style 
+            3. Pack for a trip
+            4. add new clothes to closet
     
+        """
+    
+    
+    if __name__ == “__main__”:
+        """
+        This is actually our main function that should call everything 
+        
+        #ask_user() should get called first 
+        
+            If user picks 1 run: 
+                - day_oufit()
+                - ranking function
+                - funtion that displays the number 1 outfit of each item 
+            
+            if user picks 2:
+                
         """
