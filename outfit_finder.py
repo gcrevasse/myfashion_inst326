@@ -3,20 +3,37 @@ class MyCloset:
     criteria given by the user
     """
     
-    """
-    Function that reads in users closet file
-    Display current closet to the users 
-    (maybe in table format) 
-    """
+    def open_closet(filepath): 
+        """
+        Function that reads in users closet file
+        Display current closet to the users 
+        (maybe in table format) 
+        
+        #with open to open closet file 
+        #display file contents to user with columns 
+        
+        
+        """
 
-    """
-    If user picks an outfit for the day: 
-    Function
-        An outfit for a casual or formal event?
-        What colors are they looking for? 
-        What is the weather supposed to be like?
+    def day_outfit(): 
+        """
+        Allow user to indicate what they want to find an outfit for, 
+        based on type of attire, color, or the weather 
+        
+        Args: 
+            choice (int): 1,2, or 3 for users choice
+            
+        Raises:  
+            ValueError is user doesn't input on of the answer choices 
+        
+        Return: 
+            user_choice (int): indicates if user wants outfit based on options 
+        
+        1. An outfit for a casual or formal event?
+        2. What colors are they looking for? 
+        3. What is the weather supposed to be like?
     
-    """
+        """
     
     """
     If user picks an outfit for the day:
@@ -82,19 +99,19 @@ class MyCloset:
     
     """
     
+    def __main__():  
+        """
+        I believe this would be the main function:
+        based on the users choice, 
+        certain functions will be called to run 
+        so in this main function, if user picks 
+        the first option, only the functions that 
+        align with that option will be called
     
-    """
-    I believe this would be the main function:
-    based on the users choice, 
-    certain functions will be called to run 
-    so in this main function, if user picks 
-    the first option, only the functions that 
-    align with that option will be called
+        Function that asks user what they want to do
+            pick an outfit for the day
+            based on friends style 
+            Pack for a trip
+            add new clothes to closet
     
-    Function that asks user what they want to do
-        pick an outfit for the day
-        based on friends style 
-        Pack for a trip
-        add new clothes to closet
-    
-    """
+        """
