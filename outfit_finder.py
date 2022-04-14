@@ -9,6 +9,9 @@ class MyCloset:
         Display current closet to the users 
         (maybe in table format) 
         
+        Args:
+            filepath (path): access to closet file 
+        
         #with open to open closet file 
         #display file contents to user with columns 
         
