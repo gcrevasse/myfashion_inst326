@@ -37,7 +37,19 @@ class MyCloset:
         3. What is the weather supposed to be like?
     
         """
-    
+    def rank_choices():
+        """This is going to be the main ranking function for 
+            each piece of clothing.
+        
+        Args:
+            criteria (list): list of strings with the answers to questions
+                to serve as the sorting criteria
+        
+        Returns:
+            A sorted and ranked list of closet items based on the 
+            current criteria.
+        
+        """
     """
     If user picks an outfit for the day:
     Function 
